@@ -31,7 +31,12 @@ public class EvaluationService {
 	 */
 	public String acronym(String phrase) {
 		// TODO Write an implementation for this method declaration
-		return null;
+		
+		String ret = "";
+		
+		ret += phrase.toCharArray()[0];
+		
+		return ret;
 	}
 
 	/**
